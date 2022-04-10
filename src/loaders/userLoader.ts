@@ -7,6 +7,7 @@ type BatchUser = (ids: number[]) => Promise<User[]>
 
 //batch users to make less queries and improve performance 
 const batchUsers: BatchUser = async (ids) => {
+    
     //get all of the users where the id is inside the id array
     const users = await prisma.user.findMany({
         where: {

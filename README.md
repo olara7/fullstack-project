@@ -6,7 +6,8 @@
 3. Run npm run start:dev on server side and npm run start on the client side.
 
 ## Overview
-This is a web project where a user can share and view posts. It is created with ReactJS, Typescript, NodeJS, PostgresSQL and GraphQL.
+This is a web project where a user can share and view posts. It is created with ReactJS, Typescript, NodeJS, PostgresSQL and GraphQL. Posts are displayed in a vertical way and each post shows the the post title, content, date and the name of the creator of the post. The name is clickable and will take you the their profile. The profile page lists the name, bio and posts by that person. If the profile that is being viewed is of the person logged in, it will also show a add post button. This button will let you create posts.
+
 - User can login or signup.
 - User can view, create, delete posts.
 - User can view profiles.
